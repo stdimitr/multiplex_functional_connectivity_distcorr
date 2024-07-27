@@ -11,5 +11,5 @@ References:
 computerized cognitive training, and their combination in physically inactive healthy late-middle-aged adults: the Projecte Moviment. 
 GeroScience 46, 573–596 (2024). https://doi.org/10.1007/s11357-023-00946-8
 
-[2] Dimitriadis SI. ℛSch: A Riemannian Schizophrenia Diagnosis Framework based on the Multiplexity of EEG-based Dynamic Functional Connectivity Patterns
-In Press
+[2] Dimitriadis SI. ℛSch: A Riemannian Schizophrenia Diagnosis Framework based on the Multiplexity of EEG-based Dynamic Functional Connectivity Patterns.
+Computers in Biology and Medicine.Volume 180, September 2024, 108862. https://doi.org/10.1016/j.compbiomed.2024.108862
