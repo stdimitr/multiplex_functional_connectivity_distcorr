@@ -3,8 +3,8 @@ that quantifies the multiplex coupling strength between a pair of frequency-depe
 brain activity of two brain areas (ROIs).
 
 I first applied this multiplex index in an intervention study analyzing resting-state fMRI [1].
-Another study focusing on the analysis of EEG signals on both sensor, and source level will
-be added here soon [2].
+In a  second study, I focused on the analysis of EEG signals on both sensor, and source level from resting-state
+recordings derived from two open datasets of healthy controls, and SCZ/SSD [2].
 
 References:
 [1] Dimitriadis, S.I., Castells-Sánchez, A., Roig-Coll, F. et al. Intrinsic functional brain connectivity changes following aerobic exercise, 
