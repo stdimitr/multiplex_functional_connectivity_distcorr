@@ -8,7 +8,7 @@ function [bcR, p, T, df] = bias_corrected_dist_corr(x, y)
 %   Note that the The t-test of independence is unbiased for every n ? 4
 %   and any significance level.
 %
-%   This implementation is based on Székely, G. J., & Rizzo, M. L. (2013).
+%   This implementation is based on SzÃ©kely, G. J., & Rizzo, M. L. (2013).
 %   The distance correlation t-test of independence in high dimension.
 %   Journal of Multivariate Analysis, 117, 193-213.
 %
@@ -33,11 +33,7 @@ M = n*(n-3)/2;
 T=0;
 p=0;
 df=0;
-%T = sqrt(M-1) * bcR / sqrt(1-bcR^2); % equation 3.7
-%df = M-1; %degrees of freedom
-%p = 1 - tcdf(T, df); % Student test distribution
-%fprintf('bias-corrected R = %.3f, p-value=%.3f, T(%d)=%.4f\n',...
-%    bcR, p, df, T);
+
 end
 
 
@@ -65,4 +61,5 @@ end
 
 function r = rows(x)
     r = size(x,1);
+
 end
